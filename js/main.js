@@ -1,3 +1,5 @@
+alert("Bienvenido/a a la app Mayores BNA.");
+
 function pedirDNI() {
     let DNI = prompt("Ingrese su N° de DNI");
 
@@ -22,8 +24,6 @@ function pedirContrasena() {
 }
 
 function registrarUsuario() {
-    alert("Bienvenido/a a la app Mayores BNA.");
-
     const nombre = prompt("Ingrese su nombre/s");
     const apellido = prompt("Ingrese su apellido/s");
     const dni = pedirDNI();
